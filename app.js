@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const path = require("path");
 const methodOverride = require("method-override");//for update and delete
 const ejsMate= require('ejs-mate');
-const wrapAsync=require("./utils/wrapAsync.js");
 const ExpressError=require("./utils/ExpressError.js");
 const {listingSchema,reviewSchema} =require("./schema.js");
 //const Review=require("./models/review.js");
